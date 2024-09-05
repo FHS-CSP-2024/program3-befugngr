@@ -23,10 +23,12 @@ lower = 2000
 upper = 3000
 
 print("my name is ", name, " , I am ", age, "years old")
+print("  ")
 print("my skills are")
 print("- ", skill1, " (", level1, ")")
 print("- ", skill2, " (", level2, ")")
 print("- ", skill3, " (", level3, " )")
+print("  ")
 print("I am looking for a job with a salary of", lower, "-", upper, "dollars per month")
 
 
@@ -50,4 +52,7 @@ print("I am looking for a job with a salary of", lower, "-", upper, "dollars per
 
 x = input("X val: ")
 y = input("Y val: ")
-
+print(x+y)
+print(x-y)
+print(x*y)
+print(x/y)

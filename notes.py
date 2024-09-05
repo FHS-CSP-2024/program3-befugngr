@@ -45,3 +45,40 @@
 #print("\n") # newline
 #print("\t") # tab
 #print("\\") # \
+
+
+
+name="Chuck"
+number=100
+newNumber=100
+
+print(number/2)
+#Casting Example
+print(int(newNumber)/2)
+
+myFloat= 3.54
+
+num1=100
+num2=75
+num3= 967
+
+avg=(num1+num2+num3)/3
+print(f"Average:{avg}")
+print ("Average", avg)
+
+
+
+beds=100
+bath=2
+address=231 
+city= "Folsom"
+zip=95630
+rent=500
+
+print(f"house for rent at {address} in {city} {zip}")
+
+
+
+#File path example
+print("I have a file located at:\\Users\\")
+
